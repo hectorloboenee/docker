@@ -1,7 +1,6 @@
 # Docker y Linux
 
-```
-shell
+```shell
 // Generar backup de volumen 
 $ docker run --rm --volumes-from <CONTAINER_NAME> -v $(pwd):/uploads-backups ubuntu tar cvf /uploads-backups/backup-`date +"%Y-%m-%d"`.tar  /opt/app/public/uploads
 
