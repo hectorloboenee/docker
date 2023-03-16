@@ -16,3 +16,6 @@ $ du -h <FILE>
 ```
  
  listar archivos dentro de archivo.tar
+ 
+ SELECT * FROM (SELECT * FROM INFOQUERY.VISTA_OS) WHERE ROWNUM <= 100 
+
